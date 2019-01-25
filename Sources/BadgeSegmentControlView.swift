@@ -147,7 +147,7 @@ open class BadgeSegmentControlView: UIView {
         // Badge 
         self.badge.frame.origin.x = self.frame.size.width -
             self.badge.frame.width -
-            (self.appearance?.borderWidth ?? 0) - 3
+            (self.appearance?.borderWidth ?? 0) - 6
         self.positionBadge()
 
         // Selection bar 
